@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+
 import {AuthModule} from "./auth/auth.module";
+import {WccrModule} from "./features/wccr/wccr.module";
 
 export const ROUTES: Routes = [
     {
@@ -21,7 +23,8 @@ export const ROUTES: Routes = [
     imports: [
         BrowserModule,
         RouterModule.forRoot(ROUTES),
-        AuthModule
+        AuthModule,
+        WccrModule
     ],
     providers: [],
     bootstrap: [AppComponent]
