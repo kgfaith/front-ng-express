@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import {AuthModule} from "./auth/auth.module";
 import {WccrModule} from "./dna/wccr/wccr.module";
+import {LcrModule} from "./dna/lcr/lcr.module";
+import {HoldingsModule} from "./dna/holdings/holdings.module";
 
 
 export const ROUTES: Routes = [
@@ -25,7 +27,9 @@ export const ROUTES: Routes = [
         BrowserModule,
         RouterModule.forRoot(ROUTES),
         AuthModule,
-        WccrModule
+        WccrModule,
+        LcrModule,
+        HoldingsModule
     ],
     providers: [],
     bootstrap: [AppComponent]
