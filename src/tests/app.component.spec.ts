@@ -1,6 +1,6 @@
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './../app/app.component.ts';
+import { AppComponent } from './../app/app.component';
 
 describe('AppComponent', () => {
     beforeEach(async(() => {

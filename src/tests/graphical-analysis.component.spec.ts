@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GraphicalAnalysisComponent } from './../app/features/wccr/graphical-analysis/containers/graphical-analysis/graphical-analysis.component.ts';
+import { GraphicalAnalysisComponent } from '../app/dna/wccr/graphical-analysis/containers/graphical-analysis/graphical-analysis.component';
 
 describe('GraphicalAnalysisComponent', () => {
   let component: GraphicalAnalysisComponent;

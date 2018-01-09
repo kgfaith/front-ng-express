@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataExtrapolationComponent } from './../app/features/wccr/data-extrapolation/containers/data-extrapolation/data-extrapolation.component.ts';
+import { DataExtrapolationComponent } from '../app/dna/wccr/data-extrapolation/containers/data-extrapolation/data-extrapolation.component';
 
 describe('DataExtrapolationComponent', () => {
   let component: DataExtrapolationComponent;

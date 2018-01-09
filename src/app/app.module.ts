@@ -5,7 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import {AuthModule} from "./auth/auth.module";
-import {WccrModule} from "./features/wccr/wccr.module";
+import {WccrModule} from "./dna/wccr/wccr.module";
+
 
 export const ROUTES: Routes = [
     {
