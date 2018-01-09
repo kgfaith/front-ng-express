@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataExtrapolationComponent } from './data-extrapolation.component';
+import { LoginComponent } from './../app/auth/login/containers/login/login.component.ts';
 
-describe('DataExtrapolationComponent', () => {
-  let component: DataExtrapolationComponent;
-  let fixture: ComponentFixture<DataExtrapolationComponent>;
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DataExtrapolationComponent ]
+      declarations: [ LoginComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DataExtrapolationComponent);
+    fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
