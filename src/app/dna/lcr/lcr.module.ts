@@ -6,7 +6,7 @@ import { LcrComponent } from './containers/lcr/lcr.component';
 
 export const ROUTES:Routes = [
     {
-        path: 'lcr',
+        path: '',
         component: LcrComponent
     }
 ];

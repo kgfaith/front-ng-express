@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
+import {DataService} from "../../../shared/services/data.service";
+import {Post} from "../../../shared/services/data.service";
+
 @Component({
-  selector: 'app-lcr',
-  templateUrl: './lcr.component.html',
-  styleUrls: ['./lcr.component.css']
+    selector: 'app-lcr',
+    templateUrl: './lcr.component.html',
+    styleUrls: ['./lcr.component.css']
 })
 export class LcrComponent implements OnInit {
+    posts: Post[];
 
-  constructor() { }
+    constructor(private dataService: DataService) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.dataService.getPosts().subscribe((data: Post[]) => this.posts = data);
+    }
 
 }

@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 export const ROUTES: Routes = [
     {
-        path: 'holdings',
+        path: '',
         children: [
             { path: '', pathMatch: 'full', redirectTo: 'otc' },
             { path: 'otc', loadChildren: './otc/otc.module#OtcModule'},

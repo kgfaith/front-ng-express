@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 export const ROUTES: Routes = [
   {
-    path: 'wccr',
+    path: '',
     children: [
       { path: '', pathMatch: 'full', redirectTo: 'table-analysis' },
       { path: 'table-analysis', loadChildren: './table-analysis/table-analysis.module#TableAnalysisModule'},
