@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OtcComponent } from './../app/dna/holdings/otc/containers/otc/otc.component';
+import { OtcComponent } from '../app/dna/holdings/containers/otc/otc.component';
 
 describe('OtcComponent', () => {
     let component:OtcComponent;

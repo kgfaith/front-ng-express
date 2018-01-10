@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TableAnalysisComponent } from '../app/dna/wccr/table-analysis/containers/table-analysis/table-analysis.component';
+import { TableAnalysisComponent } from '../app/dna/wccr/containers/table-analysis/table-analysis.component';
 
 describe('TableAnalysisComponent', () => {
   let component: TableAnalysisComponent;

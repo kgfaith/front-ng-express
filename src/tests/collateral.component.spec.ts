@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CollateralComponent } from './../app/dna/holdings/collateral/containers/collateral/collateral.component';
+import { CollateralComponent } from '../app/dna/holdings/containers/collateral/collateral.component';
 
 describe('CollateralComponent', () => {
   let component: CollateralComponent;
