@@ -6,7 +6,7 @@ import {Post} from "../../../shared/services/data.service";
 @Component({
     selector: 'app-lcr',
     templateUrl: './lcr.component.html',
-    styleUrls: ['./lcr.component.css']
+    styleUrls: ['./lcr.component.scss']
 })
 export class LcrComponent implements OnInit {
     posts: Post[];
